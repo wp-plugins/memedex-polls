@@ -36,7 +36,7 @@ If you just want to embed any old random poll, use the simplest form of the tag:
 
 \[memedex:\]
 
-Possible values for the request_type field are:
+Possible values for the request\_type field are:
 
 * username
 * pollid
@@ -44,7 +44,7 @@ Possible values for the request_type field are:
 * keyword
 * random
 
-Note: the category request_type expects request_value to be an integer.  You can get a list of integer category codes at http://www.memedex.com/categories.php
+Note: the category request\_type expects request\_value to be an integer.  You can get a list of integer category codes at http://www.memedex.com/categories.php
 
 The width and height parameters (params 3 and 4) are uncommon, but they allow you to specify a custom widht and height for the flash object.  They are not recommended, however, because the flash doesn't look that great in anything but the default size.
 
@@ -62,7 +62,7 @@ The template tag supports the same parameters as the post tag, in the same order
 
 1. Upload `memedex.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Use the \[memedex: p1#p2#p3#p4\] tag in your posts, or use the get_memedex_embed_poll() template tag in your template.
+1. Use the \[memedex: p1#p2#p3#p4\] tag in your posts, or use the get\_memedex\_embed\_poll() template tag in your template.
 
 == Frequently Asked Questions ==
 
