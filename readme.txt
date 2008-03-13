@@ -56,7 +56,7 @@ You can also add a poll to your theme file, for example, in the sidebar.  To do 
 
 The template tag supports the same parameters as the post tag, in the same order.  So to grab a random poll from MEMEdex user stromdotcom, use the following tag:
 
-'<?php get_memedex_embed_poll("username", "stromdotcom"); '
+`<?php get_memedex_embed_poll("username", "stromdotcom"); ?>`
 
 == Installation ==
 
