@@ -1,6 +1,6 @@
 === MEMEdex Polls ===
 Contributors: stromdotcom
-Tags: memedex, polls
+Tags: memedex, poll, post, sidebar, plugin
 Requires at least: 2.0
 Tested up to: 2.3.3
 Stable tag: 1.0
