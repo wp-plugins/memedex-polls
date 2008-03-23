@@ -3,7 +3,7 @@
 Plugin Name: MEMEdex Polls
 Plugin URI: http://www.memedex.com/docs.php?doc=wordpress
 Description: Allows embedding polls created at MEMEdex into your posts.
-Version: 1.0
+Version: 1.1
 Author: Rick Strom
 Author URI: http://www.memedex.com
 */
@@ -29,11 +29,11 @@ function memedex_embed_poll($request_type = "", $request_value = "", $width = "3
     $out = <<<EOT
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="{$width}" height="{$height}" id="flashPoll" align="middle" style="float:left;padding:10px 10px 10px 0px;">
 <param name=FlashVars VALUE="apiKey=&request_type={$request_type}&request_value={$request_value}"/>
-<param name="allowScriptAccess" value="sameDomain" />
+<param name="allowScriptAccess" value="always" />
 <param name="movie" value="http://www.memedex.com/flash/flashPoll/flashPoll.swf" />
 <param name="quality" value="high" />
 <param name="wmode" value="transparent" />
-<embed src="http://www.memedex.com/flash/flashPoll/flashPoll.swf" quality="high" width="{$width}" height="{$height}" name="flashPoll" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashVars="apiKey=&request_type={$request_type}&request_value={$request_value}" wmode="transparent" style="float:left;padding:10px 10px 10px 0px;"/>
+<embed src="http://www.memedex.com/flash/flashPoll/flashPoll.swf" quality="high" width="{$width}" height="{$height}" name="flashPoll" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashVars="apiKey=&request_type={$request_type}&request_value={$request_value}" wmode="transparent" style="float:left;padding:10px 10px 10px 0px;"/>
 </object>
 EOT;
 
