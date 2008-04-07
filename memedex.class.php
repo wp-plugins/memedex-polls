@@ -59,7 +59,7 @@ class bcx_MemedexXMLParser {
 	return $this->processXML();
     }
 
-    function getDynamicPoll($options, $question, $answers, $mode="single", $category="4") {
+    function getDynamicPoll($options, $question, $answers, $mode="single", $category="8") {
 	// Switch to alt url
 	$this->url = "http://www.memedex.com/api/createpollxml.php";
         $this->url .= "?api_key={$this->api_key}";
