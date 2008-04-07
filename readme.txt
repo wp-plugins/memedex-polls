@@ -3,13 +3,15 @@ Contributors: stromdotcom
 Tags: memedex, poll, post, sidebar, plugin
 Requires at least: 2.0
 Tested up to: 2.3.3
-Stable tag: 1.1
+Stable tag: 1.2
 
 This plugin allows simple embedding of MEMEdex flash polls into your Wordpress posts, or into your sidebar, by using a short tag. 
 
 == Description ==
 
 The MEMEdex Wordpress plugin allows you to add MEMEdex polls to your Wordpress posts by adding a short tag to your post where you want the poll to appear.  Your users can vote on polls you create from within your site without ever leaving your Wordpress blog (in fact, they don't even have to leave the page!).  When users vote, their results get tallied by MEMEdex, and the results of the poll are displayed.  All of this uses version 1.0 of the MEMEdex API, but all you need to know is how to use the Wordpress tag.
+
+New for version 1.2: You will now find a MEMEdex Poll tab under the Write menu item.  You can create polls from here, and the plugin will return the full tag you need to copy and paste into your polls.  This is the simplest, fastest way to use the plugin.
 
 # To embed a poll in a post:
 
@@ -60,8 +62,9 @@ The template tag supports the same parameters as the post tag, in the same order
 
 == Installation ==
 
-1. Upload `memedex.php` to the `/wp-content/plugins/` directory
+1. Upload `memedex.php` and `memedex.class.php` to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Go to Write->MEMEdex Poll and create a poll
 1. Use the \[memedex: p1#p2#p3#p4\] tag in your posts, or use the get\_memedex\_embed\_poll() template tag in your template.
 
 == Frequently Asked Questions ==
