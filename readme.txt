@@ -9,6 +9,8 @@ This plugin allows simple embedding of MEMEdex flash polls into your Wordpress p
 
 == Description ==
 
+Note: Version 1.2 requires PHP5.  If you are still using PHP4, don't use this version of the plugin.  Use version 1.1!
+
 The MEMEdex Wordpress plugin allows you to add MEMEdex polls to your Wordpress posts by adding a short tag to your post where you want the poll to appear.  Your users can vote on polls you create from within your site without ever leaving your Wordpress blog (in fact, they don't even have to leave the page!).  When users vote, their results get tallied by MEMEdex, and the results of the poll are displayed.  All of this uses version 1.0 of the MEMEdex API, but all you need to know is how to use the Wordpress tag.
 
 New for version 1.2: You will now find a MEMEdex Poll tab under the Write menu item.  You can create polls from here, and the plugin will return the full tag you need to copy and paste into your polls.  This is the simplest, fastest way to use the plugin.
